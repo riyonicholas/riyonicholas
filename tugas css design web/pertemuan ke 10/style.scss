@@ -1,0 +1,83 @@
+$color1: white;
+$color2: black;
+$colco3: red;
+$bgcolor1: grey;
+$bgcolor2: white;
+$bgcolor3: black;
+$breakpoint: 0;
+$postion: 50px;
+$postion1: 100px;
+$postion2: 200px;
+$postion3: 300px;
+$postion4: 400px;
+$postion5: 500px;
+$postion6: 600px;
+$size1: 100px;
+$size2: 200px;
+$size3: 300px;
+$size4: 400px;
+$size5: 500px;
+$size6: 600px;
+$place0: flex;
+$place1:  center;
+$place2: start;
+$palce3: end;
+$place4: column;
+$font: sans-serif;
+$font1: arial;
+
+body{
+    background-color: $bgcolor3;
+    font-family: $font, $font1;
+}
+.one{
+    display: $place0;
+    justify-content: $place1;
+    margin-top: $postion1;
+    gap: $postion;
+    .kotak1{
+        background-color: $bgcolor2;
+        width: $size5;
+        height: $size5;
+        display: $place0;
+        justify-content: $place1;
+        align-items: $place1;
+        flex-direction: $place4;
+        .kotak1-0{
+            background-color: $bgcolor2;
+            width: $size3;
+            height: $size3;
+        }
+    }
+    .kotak2{
+        background-color: $bgcolor2;
+        width: $size5;
+        height: $size5;
+        display: $place0;
+        justify-content: $place1;
+        align-items: $place1;
+        flex-direction: $place4;
+        .kotak2-0{
+            background-color: $bgcolor2;
+            width: $size3;
+            height: $size3;
+        }
+    }
+    .kotak3{
+        background-color: $bgcolor2;
+        width: $size5;
+        height: $size5;
+        display: $place0;
+        justify-content: $place1;
+        align-items: $place1;
+        flex-direction: $place4;
+        .kotak3-0{
+            background-color: $bgcolor2;
+            width: $size3;
+            height: $size3;
+            img{
+                width: $size3;
+            }
+        }
+    }
+}

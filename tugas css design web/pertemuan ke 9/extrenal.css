@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 100px 340px;
+    gap: 50px;
+    img{
+        width: 500px;
+    }
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
