@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        legend{
+            background-color: gray;
+            color: white;
+        }
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        legend:hover{
+            background-color: white;
+            color: gray;
+        }
+        input:hover{
+            background-color: grey;
+            color: white;
+        }
+        textarea:hover{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</header>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>BIODATA PRIBADI</legend>
+            <table>
+                <tr>
+                    <td>nama</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>alamat</td>
+                    <td>:</td>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td>TTL</td>
+                    <td>:</td>
+                    <td><input type="text"> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>jenis kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" id="laki-laki" name="fav_language">laki-laki <input type="radio" id="perempuan" name="fav_language">perempuan</td>
+                </tr>
+                <tr>
+                    <td>agama</td>
+                    <td>:</td>
+                    <td><select id="agama" name="agama">
+                        <option value="islam">islam</option>
+                        <option value="hindu">hindu</option>
+                        <option value="budha">budha</option>
+                        <option value="kristen">kristen</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="hobby">hobby</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" id="hobby" name="hobby">
+                        <label for="hobby">skateboard</label>
+                        <input type="checkbox" id="hobby" name="hobby">
+                        <label for="hobby">bermain game</label>
+                        <input type="checkbox" id="hobby" name="hobby">
+                        <label for="hobby">mancing</label>
+                        <input type="checkbox" id="hobby" name="hobby">
+                        <label for="hobby">tiduran</label>
+                        <input type="checkbox">
+                        <label for="hobby" id=>jalan-jalan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>motto</td>
+                    <td>:</td>
+                    <td><textarea placeholder="isilah motto anda di sini" name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"> <input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
