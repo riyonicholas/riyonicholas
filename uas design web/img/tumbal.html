@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Around Circular Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .circle-image {
+            width: 200px; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+            height: 200px;
+            border-radius: 50%;
+            float: left;
+            shape-outside: circle();
+            clip-path: circle();
+            margin: 20px;
+        }
+
+        .text {
+            flex: 1;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-image.jpg" alt="Circular Image" class="circle-image">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae magna at lacus egestas bibendum. Duis venenatis diam vel diam dignissim, non ullamcorper velit cursus. Sed aliquam, eros ut lacinia efficitur, ipsum magna facilisis enim, vel auctor libero odio id lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur non odio sapien. Nullam sed fringilla erat. Sed vel ligula metus.</p>
+            <p>Morbi quis volutpat nunc. Curabitur facilisis lectus vitae quam varius, in bibendum nulla sollicitudin. Nulla facilisi. Nulla facilisi. Ut auctor, nulla in malesuada laoreet, leo lacus faucibus dolor, in sagittis turpis turpis sed nulla. Nam congue nunc id purus scelerisque, vel venenatis mauris finibus. Curabitur vitae orci a augue pretium feugiat. Aenean sit amet libero vehicula, aliquam mi eget, faucibus ipsum.</p>
+        </div>
+    </div>
+</body>
+</html>
