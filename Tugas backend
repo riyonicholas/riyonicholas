@@ -1,1 +1,23 @@
+#tugas1
+total_belanja = float(input("Masukkan total belanja Anda: "))
 
+if total_belanja > 100000:
+    print("Selamat, Anda dapat hadiah!")
+else:
+    print("Terimakasih sudah berbelanja")
+
+print("Selesai")
+
+#tugas2
+password_benar = "riyo"
+
+while True:
+    password = input("Masukkan password: ")
+
+    if password == password_benar:
+        print("keren paswordnya benar. welcome")
+        break
+    else:
+        print("Password salah, yuk coba lagi!")
+
+print("Terimakasih sudah menggunakan aplikasi kami")
